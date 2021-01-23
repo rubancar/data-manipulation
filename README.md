@@ -14,7 +14,12 @@ We need two libraries in Python 3 to execute the following scripts.
 pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
 ```
 
-If the previous steps has been completed successfully we'll be able to execute our scripts.
+##### Usage
+If the previous steps has been completed successfully we'll be able to execute our scripts. Two more things you have to be aware: is the following two variables, they need to be set it up with the document you'll be editing on Google Sheets:
+```
+SPREADSHEET_ID = '1zhGVw3hQY1I8EnyrQGNLYtMM3zudk'
+RANGE = 'Reto1!A1:Z1000'
+```
 
 
 #### 2. Extract data from an Instagram Post
